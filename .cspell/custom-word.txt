@@ -1,0 +1,13 @@
+{
+  "import":["@cspell/dict-lorem-ipsum/cspell-ext.json"],
+  "caseSensitive":false,
+  "dictionaries":["custom-word"],
+  "dictionaryDefinitions":[
+    {
+      "name":"custom-word",
+      "path":"./.cspell/custom-word.txt",
+      "addWords":true
+    }
+  ]
+  
+}

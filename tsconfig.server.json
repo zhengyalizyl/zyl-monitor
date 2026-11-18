@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "module": "commonjs",
+    "declarationMap": true,
+    "removeComments": true,
+    "emitDecoratorMetadata":true,
+    "experimentalDecorators": true,
+    "target":"es2021",
+    "sourceMap": true,
+    "incremental":true,
+    "skipLibCheck":true,
+    "strictNullChecks": false,
+    "noImplicitAny":false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+  }
+}
